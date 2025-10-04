@@ -38,4 +38,9 @@ Backend:** Lightweight Node.js + Express + MongoDB for API support
 - Validation using `express-validator`
 
 
+PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/assignment_db
+JWT_SECRET=your_jwt_secret_here
+JWT_EXPIRES_IN=7d
+NODE_ENV=development
 
